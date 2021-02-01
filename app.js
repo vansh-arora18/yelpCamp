@@ -15,8 +15,6 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
 const dbUrl = process.env.DB_URL;
-const dbUrl = process.env.DB_URL;
-const dbUrl1 = 'mongodb://localhost:27017/yelpCamp';
 const {mongoStore} = require('connect-mongo');
 const mongoDBStore = require('connect-mongo')(session);
 
